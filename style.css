@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins&family=Press+Start+2P&display=swap');
+/* 
+    cores
+    #B569DB
+    #7300AC
+    #000000
+    #ffffff
+*/
+.navbar{
+    background-color: #000000 !important;
+}
+a{
+    color: #B569DB !important;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: center !important;
+}
+.back{
+    background: rgb(2,0,36);
+background: linear-gradient(101deg, rgba(2,0,36,1) 0%, rgba(115,0,172,1) 100%);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.ferramentas{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    color: #7300AC;
+    max-width: 100%;
+}
+span{
+    font-weight: bolder;
+}
+
+#foto{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.sobreMim{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    flex: 1;
+    padding: 40px;
+}
+.right{
+    flex: 1;
+}
+.containerCard {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se quebrem em várias linhas */
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center; /* Centraliza o conteúdo dentro do container */
+    clear: both;
+}
+
+footer{
+    background: linear-gradient(101deg, rgba(2,0,36,1) 0%, #7300ac 100%);
+    color: #ffff;
+}
+.contatoFooter{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contato-item a {
+    color: inherit; /* Usa a cor de texto atual */
+    text-decoration: none; /* Remove o sublinhado */
+    display: flex; /* Mantém a estrutura flexível */
+    align-items: center; /* Alinha o ícone e o texto */
+}
+
+.contato-item a:hover {
+    text-decoration: underline; /* Opcional: adicione sublinhado ao passar o mouse */
+}
+.contato-item img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
